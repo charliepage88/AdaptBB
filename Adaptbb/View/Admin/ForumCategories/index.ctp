@@ -4,7 +4,7 @@
     'action' => 'index',
     'plugin' => false
 )) ?>
-<?php $this->Html->addCrumb('Forum Categories', null) ?>
+<?php $this->Html->addCrumb('Forum Categories', null) ?>!!!
 
 <div class="pull-left">
     <h1>Forum Categories<?php if (!empty($this->request->named['trash'])): ?> - Trash<?php endif ?></h1>
